@@ -35,7 +35,7 @@ ENV LANG en_NZ.utf8
 # download the required data into the container image and make sure permission are ok
 RUN wget -nv https://github.com/GenomicsAotearoa/introduction-to-shell/releases/download/2024-July/shell_data.zip \
         -O /var/lib/shell_data.zip \
-    && unzip /var/lib/shell_data.zip -C /var/lib \
+    && unzip /var/lib/shell_data.zip -d /var/lib \
     && rm -f /var/lib/shell_data.zip \
     && chown -R root:root /var/lib/shell_data \
     && chmod -R o+rX /var/lib/shell_data 
