@@ -1,2 +1,4 @@
-# training-environment-jupyter-introduction-shell-app
-NeSI training environment Introduction to  Shell for Bioinformatics app
+# NeSI training environment: Intermediate Shell for Bioinformatics app
+JupyterLab app for running Introduction to  Shell for Bioinformatics on the NeSI training environment.
+
+
